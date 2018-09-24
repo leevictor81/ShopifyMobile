@@ -19,8 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".TagListActivity"
+            android:launchMode="singleTop"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".ProductListActivity"
+            android:launchMode="singleTop"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
